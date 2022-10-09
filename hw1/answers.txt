@@ -1,0 +1,11 @@
+Part 1 - Matrices and Vectors
+
+	2. the time of adding 1 to the vector using the loop: 0.0648
+	3. the time of adding 1 to the vector without using the loop: 0.0079
+
+Part 4 - Images
+
+	12. the dimensions: 	750        1500           3
+	14. number of pixels in grayscale that are equal to 6:	12
+	15. the darkest pixel has value 5, at row = 604, column = 1290
+	
