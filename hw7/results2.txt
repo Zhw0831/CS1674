@@ -1,0 +1,5 @@
+Overall, the train accuracy is higher than test accuracy for both classifiers.
+
+By the plot, the test accuracy of SVM classifier is better than the KNN test accuracy, regardless of the k values. And the train accuracy of SVM is better than KNN after the train accuracy drops below it at a small k.
+
+As k increases, the KNN train accuracy decreases fast and continues decreasing, while the test accuracy increases a little and decreases again. The accuracy 1 for KNN train when k is small is likely due to overfitting.

@@ -1,0 +1,9 @@
+accuracy for full SPM = 0.5625
+
+accuracy for level 0 = 0.3925
+
+accuracy for level 1 = 0.5450
+
+Based on above data, we can see that the accuracy of full SPM representation is the highest, and then level-1 histogram, and level-0 histogram is the worst. 
+
+The full SPM has the highest accuracy because it combines the multiple levels so it can have more information and thus make better predictions. Similarly, the representation on level 1 is more detailed (since it concatenates 4 histograms while level 0 only has 1) than level 0, so the level 1 representation achieves a better result than level 0, but still not as detailed as the full one.
