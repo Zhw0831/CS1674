@@ -1,1 +1,31 @@
+1. For which of the three representations is the within-between ratio smallest?
+
+The texture mean representation has the smallest ratio 0.563118.
+
+Ratio for BOW k=2: 0.813070
+Ratio for BOW k=5: 0.895153
+Ratio for BOW k=10: 0.952252
+Ratio for BOW k=50: 0.934978
+Ratio for texture concat: 0.942568
+Ratio for texture mean: 0.563118
+
+
+2. Does the answer to this question depend on the value of k that you use?
+
+It does not depend on the k values, because for all k (2,5,10,50), the ratio of bag of words are all larger than the texture mean representation.
+
+
+3. Does it depend on the number of keypoints you extract? (Try 500, 1000, 2000, 3000)
+
+The final answer does not depend on the number of keypoints, i.e., the texture mean representation still has the smallest ratio. Although by increasing the number of keypoints, the ratio for the bag of words decreases compared with before, they are still larger than the ratio of the texture mean.
+
+
+4. Which of the three types of discriptors that you used is the best one? How can you tell?
+
+I think that the texture mean is the best one because it has the smallest within-between ratio. For a good image presentation, the distance within the same class should be small which indicates higher similarity, while the distance between different classes should be large since there are more differences. Thus, small within distance and large between distance makes the within-between ratio small, i.e. the smaller the distance, the better the representation.
+
+
+5. Is this what you expected? Why or why not?
+
+This is not what I expected because I thought the bag of words representation would have a smaller ratio. I thought the mapping to different clusters will distinguish the similarity and difference better. Also, the input images are very different, I thought taking the means would just make the ratio larger.
 
