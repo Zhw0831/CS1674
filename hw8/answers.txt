@@ -1,0 +1,8 @@
+hinge loss for W1 is 3.814245
+hinge loss for W2 is 2.662313
+hinge loss for W3 is 3.266802
+cross entropy loss for W1 is 0.6086427
+cross entropy loss for W2 is 0.4392319
+cross entropy loss for W3 is 0.5294915
+
+According to both the hinge loss and the cross entropy loss, weight matrix 2 is the best one with the least loss among the 3.
